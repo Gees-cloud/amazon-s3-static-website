@@ -11,7 +11,9 @@ This project demonstrates how to:
 - Configure public access through a bucket policy
 - Use the AWS Console to deploy cloud resources without writing backend code
 
-The deployed site displays the message: "Hello from Ejike on AWS!"
+Live demo message:  
+📸 "Hello from Ejike on AWS!"
+
 ---
 
 ## 📚 Key Concepts
@@ -48,22 +50,35 @@ By the end of this project, you'll be able to:
 .
 ├── index.html               # Static website homepage
 ├── README.md                # Project documentation
-├── bucket-config.png        # Screenshot of bucket configuration
-├── bucket-policy.png        # Screenshot of bucket policy
-└── website-preview.png      # Screenshot of the live website
+└── images/                  # Screenshots of setup and result
+    ├── bucket-config.png
+    ├── bucket-policy.png
+    └── website-preview.png
 
-📸 Screenshots
-Here are some key visuals from the project setup and the live site:
+
+---
+
 🚀 Steps to Deploy on Amazon S3
- * Create an S3 Bucket
-   * Bucket name must be globally unique
-   * Disable “Block all public access”
- * Upload index.html
-   * Enable static website hosting in bucket properties
-   * Set index document to index.html
- * Set Bucket Policy
-   * Add this JSON to allow public access:
-     {
+
+1. Create an S3 Bucket
+
+Bucket name must be globally unique
+
+Disable “Block all public access”
+
+
+
+2. Upload index.html
+
+Enable static website hosting in bucket properties
+
+Set index document to index.html
+
+
+
+3. Set Bucket Policy Add this JSON to allow public access:
+
+{
   "Version": "2012-10-17",
   "Statement": [
     {
@@ -76,25 +91,55 @@ Here are some key visuals from the project setup and the live site:
   ]
 }
 
- * Access Your Site
-   * Visit the bucket’s website endpoint URL
-   * You should see: "Hello from Ejike on AWS"
+
+4. Access Your Site
+
+Visit the bucket’s website endpoint URL
+
+You should see: "Hello from Ejike on AWS"
+
+
+
+
+
+---
+
 ✅ Comprehensive Checklist
- * [x] Created unique S3 bucket
- * [x] Uploaded index.html
- * [x] Enabled static website hosting
- * [x] Applied public-read bucket policy
- * [x] Verified website via browser
+
+[x] Created unique S3 bucket
+
+[x] Uploaded index.html
+
+[x] Enabled static website hosting
+
+[x] Applied public-read bucket policy
+
+[x] Verified website via browser
+
+
+
+---
+
 💬 Where to Get Help
+
 If you're stuck:
- * Use the AWS Documentation on S3 Hosting
- * Open an Issue in this repo
- * Tag me on LinkedIn
+
+Use the AWS Documentation on S3 Hosting
+
+Open an Issue in this repo
+
+Tag me on LinkedIn: https://www.linkedin.com/in/ejike-gloria-045081234
+
+
+
+---
+
 👩‍💻 Maintainer
+
 Made with grit by:
-Gloria Ejike
+
+Ejike Gloria
 AWS Certified Solutions Architect – Associate
 Cloud & Backend Dev Intern @ CodeAlpha
 📍 Nigeria 🇳🇬
-🔗 GitHub Profile
-🔗 LinkedIn Profile
+GitHub • LinkedIn
