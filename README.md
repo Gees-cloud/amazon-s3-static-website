@@ -51,3 +51,50 @@ By the end of this project, you'll be able to:
 ├── bucket-config.png        # Screenshot of bucket configuration
 ├── bucket-policy.png        # Screenshot of bucket policy
 └── website-preview.png      # Screenshot of the live website
+
+📸 Screenshots
+Here are some key visuals from the project setup and the live site:
+🚀 Steps to Deploy on Amazon S3
+ * Create an S3 Bucket
+   * Bucket name must be globally unique
+   * Disable “Block all public access”
+ * Upload index.html
+   * Enable static website hosting in bucket properties
+   * Set index document to index.html
+ * Set Bucket Policy
+   * Add this JSON to allow public access:
+     {
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "PublicReadGetObject",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::ejike-site/*"
+    }
+  ]
+}
+
+ * Access Your Site
+   * Visit the bucket’s website endpoint URL
+   * You should see: "Hello from Ejike on AWS"
+✅ Comprehensive Checklist
+ * [x] Created unique S3 bucket
+ * [x] Uploaded index.html
+ * [x] Enabled static website hosting
+ * [x] Applied public-read bucket policy
+ * [x] Verified website via browser
+💬 Where to Get Help
+If you're stuck:
+ * Use the AWS Documentation on S3 Hosting
+ * Open an Issue in this repo
+ * Tag me on LinkedIn
+👩‍💻 Maintainer
+Made with grit by:
+Gloria Ejike
+AWS Certified Solutions Architect – Associate
+Cloud & Backend Dev Intern @ CodeAlpha
+📍 Nigeria 🇳🇬
+🔗 GitHub Profile
+🔗 LinkedIn Profile
