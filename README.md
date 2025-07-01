@@ -79,20 +79,17 @@ Here are some key visuals from the project setup and the live site:
  * Access Your Site
    * Visit the bucket’s website endpoint URL
    * You should see: "Hello from Ejike on AWS"
-
 ✅ Comprehensive Checklist
  * [x] Created unique S3 bucket
  * [x] Uploaded index.html
  * [x] Enabled static website hosting
  * [x] Applied public-read bucket policy
  * [x] Verified website via browser
-
 💬 Where to Get Help
 If you're stuck:
  * Use the AWS Documentation on S3 Hosting
  * Open an Issue in this repo
  * Tag me on LinkedIn
-
 👩‍💻 Maintainer
 Made with grit by:
 Gloria Ejike
