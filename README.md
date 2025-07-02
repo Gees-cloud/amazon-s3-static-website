@@ -61,22 +61,19 @@ By the end of this project, you'll be able to:
 🚀 Steps to Deploy on Amazon S3
 
 1. Create an S3 Bucket
-
 Bucket name must be globally unique
-
 Disable “Block all public access”
 
 
-
 2. Upload index.html
-
 Enable static website hosting in bucket properties
-
 Set index document to index.html
 
 
+3. Set Bucket Policy
+Add this JSON to allow public access:
 
-3. Set Bucket Policy Add this JSON to allow public access:
+
 
 {
   "Version": "2012-10-17",
@@ -91,13 +88,9 @@ Set index document to index.html
   ]
 }
 
-
 4. Access Your Site
-
 Visit the bucket’s website endpoint URL
-
 You should see: "Hello from Ejike on AWS"
-
 
 
 
