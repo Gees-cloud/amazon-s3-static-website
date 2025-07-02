@@ -18,10 +18,10 @@ Live demo message:
 
 ## 📚 Key Concepts
 
-- Amazon S3 static website hosting
-- IAM and access control via bucket policy
-- Cloud-based object storage for web apps
-- Deploying without a web server (EC2-free)
+- Amazon S3 static website hosting  
+- IAM and access control via bucket policy  
+- Cloud-based object storage for web apps  
+- Deploying without a web server (EC2-free)  
 
 ---
 
@@ -29,18 +29,18 @@ Live demo message:
 
 By the end of this project, you'll be able to:
 
-- Set up an S3 bucket for static website hosting
-- Upload and manage website files (HTML/CSS)
-- Configure public access through IAM policies
-- Understand when to use S3 for hosting lightweight apps or demos
+- Set up an S3 bucket for static website hosting  
+- Upload and manage website files (HTML/CSS)  
+- Configure public access through IAM policies  
+- Understand when to use S3 for hosting lightweight apps or demos  
 
 ---
 
 ## 🧰 Prerequisites
 
-- Basic knowledge of AWS services
-- An AWS account (free tier is enough)
-- HTML fundamentals (you can use any simple HTML page)
+- Basic knowledge of AWS services  
+- An AWS account (free tier is enough)  
+- HTML fundamentals (you can use any simple HTML page)  
 
 ---
 
@@ -121,7 +121,7 @@ Use the AWS Documentation on S3 Hosting
 
 Open an Issue in this repo
 
-Tag me on LinkedIn: https://www.linkedin.com/in/ejike-gloria-045081234
+Tag me on LinkedIn: Ejike Gloria on LinkedIn
 
 
 
